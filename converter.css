@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(263, 93%, 24%);
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: hsl(350, 94%, 65%);
+    text-shadow: 0px 0px 5px hsl(350, 94%, 65%);
+}
+
+.container{
+    width: 600px;
+    height: 200px;
+    background-color:hsl(263, 96%, 29%);
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgb(57, 3, 145);
+}
+
+.dropdown{
+    width: 120px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 42px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.exchange{
+    font-size: 2em;
+    color: hsl(139, 56%, 52%);
+    text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.exchange2{
+    font-size: 2em;
+    color: hsl(139, 56%, 52%);
+    text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
+    position: absolute;
+    top: 40px;
+    left: 275px;
+}
+
+.amount{
+    position:absolute;
+    left: 410px;
+    top: 42px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.exchange3{
+    font-size: 2em;
+    color: hsl(139, 56%, 52%);
+    text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+.dropdown2{
+    width: 120px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 36px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.exchange4{
+    font-size: 2em;
+    color: hsl(139, 56%, 52%);
+    text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
+    position: absolute;
+    top: 120px;
+    left: 260px;
+}
+
+.value{
+    position:absolute;
+    left: 410px;
+    top: 122px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+    font-size: 1.5em;
+}
