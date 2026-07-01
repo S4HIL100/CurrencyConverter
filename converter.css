@@ -11,7 +11,7 @@ h1{
 
 .container{
     width: 600px;
-    height: 200px;
+    height: 250px;
     background-color:hsl(263, 96%, 29%);
     position: absolute;
     top: 35%;
@@ -29,6 +29,7 @@ h1{
     border-radius: 10px;
     text-align: center;
     outline: none;
+    font-weight: bold;
 }
 
 .exchange{
@@ -86,6 +87,7 @@ input[type="number"] {
     border-radius: 10px;
     text-align: center;
     outline: none;
+    font-weight: bold;
 }
 
 .exchange4{
@@ -109,4 +111,30 @@ input[type="number"] {
     padding: 1px;
     text-align: center;
     font-size: 1.5em;
+}
+
+.convert{
+    position: absolute;
+    left: 10px;
+    top: 190px;
+    width: 580px;
+    border-radius: 15px;
+    padding: 4px;
+    background-color: hsl(122, 53%, 53%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: hsl(0, 5%, 89%);
+    box-shadow: 0px 5px 10px hsl(263, 85%, 5%);
+}
+
+.convert:hover{
+    background-color: hsl(122, 53%, 43%);
+}
+.convert:active{
+    box-shadow: 0px 2px 5px hsl(261, 74%, 5%);
+    transform: translateY(2px);
+}
+
+option{
+    font-weight: bold;
 }
