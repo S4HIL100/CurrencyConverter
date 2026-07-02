@@ -12,7 +12,7 @@
         <div class = "container">
             <label for = "exchange" class = "exchange"><b>From:</b></label>
             <div>
-                <select class = "dropdown">
+                <select class = "dropdown" id = "currency-one">
                     <option value="AED">AED</option>
                     <option value="ARS">ARS</option>
                     <option value="AUD">AUD</option>
@@ -68,10 +68,10 @@
                 </select>
             </div>
             <label for = "exchange" class = "exchange2"><b>Amount:</b></label>
-            <input class = "amount" type ="number" placeholder="Enter Amount">
+            <input class = "amount" type ="number" id = "amount-one" placeholder="Enter Amount" value = "1">
             <label for = "exchange" class = "exchange3"><b>To:</b></label>
             <div>
-                <select class = "dropdown2">
+                <select class = "dropdown2" id = "currency-two">
                     <option value="AED">AED</option>
                     <option value="ARS">ARS</option>
                     <option value="AUD" selected>AUD</option>
@@ -127,8 +127,9 @@
                 </select>
             </div>
             <label for = "exchange" class = "exchange4"><b>Currency:</b></label>
-            <div class = "value">1</div>
-            <button class = "convert">Convert</button>
+            <div class = "value" id = "amount-two"></div>
+            <div class = "rate" id = "rate"></div>
+            <button class = "convert" onclick = "calculate()">Convert</button>
         </div>
     </main>
     <script src = "converter.js"></script>

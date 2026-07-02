@@ -11,7 +11,7 @@ h1{
 
 .container{
     width: 600px;
-    height: 250px;
+    height: 280px;
     background-color:hsl(263, 96%, 29%);
     position: absolute;
     top: 35%;
@@ -116,7 +116,7 @@ input[type="number"] {
 .convert{
     position: absolute;
     left: 10px;
-    top: 190px;
+    top: 220px;
     width: 580px;
     border-radius: 15px;
     padding: 4px;
@@ -137,4 +137,13 @@ input[type="number"] {
 
 option{
     font-weight: bold;
+}
+
+.rate{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    top: 170px;
+    left: 160px;
 }
