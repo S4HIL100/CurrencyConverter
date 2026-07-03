@@ -10,7 +10,7 @@
     <header><h1>Currency Converter</h1></header>
     <main>
         <div class = "container">
-            <label for = "exchange" class = "exchange"><b>From:</b></label>
+            <label for = "exchange" class = "exchange-title"><b>From:</b></label>
             <div>
                 <select class = "dropdown" id = "currency-one">
                     <option value="AED">AED</option>
@@ -67,11 +67,11 @@
                     <option value="ZAR">ZAR</option>
                 </select>
             </div>
-            <label for = "exchange" class = "exchange2"><b>Amount:</b></label>
-            <input class = "amount" type ="number" id = "amount-one" placeholder="Enter Amount" value = "1">
-            <label for = "exchange" class = "exchange3"><b>To:</b></label>
+            <label for = "exchange" class = "exchange-title-two"><b>Amount:</b></label>
+            <input type ="number" id = "amount-one" placeholder="Enter Amount" value = "1">
+            <label for = "exchange" class = "exchange-title-three"><b>To:</b></label>
             <div>
-                <select class = "dropdown2" id = "currency-two">
+                <select class = "dropdown-two" id = "currency-two">
                     <option value="AED">AED</option>
                     <option value="ARS">ARS</option>
                     <option value="AUD" selected>AUD</option>
@@ -126,9 +126,9 @@
                     <option value="ZAR">ZAR</option>
                 </select>
             </div>
-            <label for = "exchange" class = "exchange4"><b>Currency:</b></label>
-            <div class = "value" id = "amount-two"></div>
-            <div class = "rate" id = "rate"></div>
+            <label for = "exchange" class = "currency-title"><b>Currency:</b></label>
+            <div id = "amount-two"></div>
+            <div id = "rate"></div>
             <button class = "convert" onclick = "calculate()">Convert</button>
         </div>
     </main>

@@ -32,7 +32,7 @@ h1{
     font-weight: bold;
 }
 
-.exchange{
+.exchange-title{
     font-size: 2em;
     color: hsl(139, 56%, 52%);
     text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
@@ -41,7 +41,7 @@ h1{
     left: 20px;
 }
 
-.exchange2{
+.exchange-title-two{
     font-size: 2em;
     color: hsl(139, 56%, 52%);
     text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
@@ -50,7 +50,7 @@ h1{
     left: 275px;
 }
 
-.amount{
+#amount-one{
     position:absolute;
     left: 410px;
     top: 42px;
@@ -58,6 +58,9 @@ h1{
     height: 30px;
     border-radius: 10px;
     outline: none;
+    font-size: 1.3em;
+    overflow: auto;
+    overflow-y: hidden;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -70,16 +73,16 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.exchange3{
+.exchange-title-three{
     font-size: 2em;
     color: hsl(139, 56%, 52%);
     text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
     position: absolute;
     top: 120px;
-    left: 30px;
+    left: 38px;
 }
 
-.dropdown2{
+.dropdown-two{
     width: 120px;
     height: 40px;
     margin-left: 120px;
@@ -90,7 +93,7 @@ input[type="number"] {
     font-weight: bold;
 }
 
-.exchange4{
+.currency-title{
     font-size: 2em;
     color: hsl(139, 56%, 52%);
     text-shadow: 0px 0px 3px hsl(139, 56%, 52%);
@@ -99,7 +102,7 @@ input[type="number"] {
     left: 260px;
 }
 
-.value{
+#amount-two{
     position:absolute;
     left: 410px;
     top: 122px;
@@ -111,6 +114,9 @@ input[type="number"] {
     padding: 1px;
     text-align: center;
     font-size: 1.5em;
+    overflow: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
 }
 
 .convert{
@@ -139,7 +145,7 @@ option{
     font-weight: bold;
 }
 
-.rate{
+#rate{
     color: white;
     font-size: 2em;
     font-weight: bold;
